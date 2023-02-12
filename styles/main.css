@@ -1,18 +1,80 @@
 body {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0em auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 100%;
+    border-color: steelblue;
+    
+    background-color: white;
+    justify-content: center;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px 10px black;
 
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+header h2 h3 {
+    padding-top: 2em;  
+    margin-top: 2em; 
+}
+
+html {
+    background-color: lightsteelblue;
+    background-image: url("../images/bgtile.jpg");
+    border-color: black;
+    
+    box-shadow: 2px;
+
+}
+
+
+section h4 {
+    color: maroon;
 }
  
-h4:hover {color:steelblue ;}
-header {
-    text-indent: 50px;
-    font-size: 120%;
+section a:hover, a:focus {
+    color: steelblue;
 }
+header {
+    clear: both;
+    font-size: 120%;
+    border-color: steelblue;
+    border-bottom: 3px solid steelblue;
+    background-image: linear-gradient(to bottom, white,steelblue);
+    
+    padding-top: 0em;
+    margin-top: 0em;
+}
+ 
 
 footer {
+    clear: both;
     text-align: center;
     font-size: 75%;
+    background-color: steelblue;
+    color: white;
+    height: 50px;
+    
+}
+section {
+    float: right;
+    width: 70%;
+}
+
+aside {
+    width: 30%;
+    color: steelblue;
+
+}
+aside h3 {
+    padding-top: 50px;
+    color: maroon;
+    font-size: 120%;
 }
 
 
@@ -26,22 +88,18 @@ header h2 {
 
 header img {
     float: left;
+    margin: 0 .5em;
     
 }
 
 main {
-    clear: left;
+    clear: both;
+    padding-left: 2em;
     
     
 }
 
-main h4 {
+aside a:hover, a:focus {
     color: maroon;
-    
-
 }
 
-main li {
-    color: steelblue;
-}
-li p:hover{color: maroon;}
