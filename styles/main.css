@@ -5,6 +5,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 100%;
     border-color: steelblue;
+    max-height: 100%;
     
     background-color: white;
     justify-content: center;
@@ -17,10 +18,6 @@ body {
     content: "";
     clear: both;
     display: table;
-}
-header h2 h3 {
-    padding-top: 2em;  
-    margin-top: 2em; 
 }
 
 html {
@@ -47,8 +44,6 @@ header {
     border-bottom: 3px solid steelblue;
     background-image: linear-gradient(to bottom, white,steelblue);
     
-    padding-top: 0em;
-    margin-top: 0em;
 }
  
 
@@ -78,7 +73,11 @@ aside h3 {
 }
 
 
+
+
 header h2 {
+    padding-top: 5px;
+    
     font-size: 250%;
     font-style: italic;
     color: steelblue;
@@ -88,7 +87,9 @@ header h2 {
 
 header img {
     float: left;
-    margin: 0 .5em;
+    padding: 0 1em;
+
+   
     
 }
 
